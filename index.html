@@ -88,6 +88,10 @@
             font-family: 'Lora', serif;
             font-weight: bold;
             font-size: 15px;
+            text-decoration: none;
+            text-align: center;
+            color: black;
+            display: inline-block;
             transition-duration: 0.3s;
             transition-property: color, background-color, transform, box-shadow;
             -webkit-box-shadow: 0px 11px 22px -9px #000000;
@@ -144,11 +148,9 @@
             <p>IP: <span id="user-ip">Đang lấy IP...</span></p>
         </div>
 
-        <button class="button" onclick="window.location.href = './lehaidang.tls';">
-            <div class="grid-container">
-                <i class="fas fa-download"></i>&nbsp;Tải xuống file
-            </div>
-        </button>
+        <a class="button" href="https://raw.githubusercontent.com/lehaidang2k9/Website/refs/heads/main/lehaidang.tls" download>
+            <i class="fas fa-download"></i>&nbsp;Tải xuống file
+        </a>
     </div>
 
     <script>
@@ -164,5 +166,4 @@
     </script>
 </body>
 
-  </html>
-  
+</html>
